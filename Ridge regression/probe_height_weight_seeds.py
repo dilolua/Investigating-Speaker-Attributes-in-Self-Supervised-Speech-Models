@@ -4,11 +4,6 @@ several speaker-disjoint 80/20 splits (seeds). Same model (Ridge, alpha=1),
 same filtering and same within-gender split logic as probe_height_weight_mixer6.py;
 only the split seed changes.
 
-Run from the folder that contains the embeddings_mixer6* folders:
-    python probe_height_weight_seeds.py
-
-Change TARGET and MODEL_CHOICE below (3 models x 2 targets = 6 runs).
-
 Output (in regression_results_mixer6/):
     <target>_seeds_<model>.csv          one row per seed, gender and layer
     <target>_seeds_summary_<model>.csv  mean and standard deviation over seeds
