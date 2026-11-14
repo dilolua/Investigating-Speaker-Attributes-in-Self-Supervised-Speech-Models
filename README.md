@@ -75,11 +75,4 @@ Face (`facebook/wav2vec2-base`, `facebook/hubert-base-ls960`, `microsoft/wavlm-b
 All random choices use seed 42. The Ridge regressions are repeated with ten seeds
 (42 and 0 to 8).
 
-## Citation
 
-Merkle, D. (2026). *Investigating Speaker Attributes in Self-Supervised Speech Models:
-A Comparison of Interpretability Techniques.* Bachelor's thesis, University of Zurich.
-
-## Licence
-
-[add a licence, for example MIT, or "All rights reserved"]
