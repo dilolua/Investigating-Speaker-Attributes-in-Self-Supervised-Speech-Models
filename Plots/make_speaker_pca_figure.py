@@ -2,10 +2,6 @@
 Makes the figure of speaker-averaged embeddings (PCA, 2 components),
 coloured by gender, for the first and middle layer of the three models.
 
-Run on the machine that has the full embeddings:
-    python make_speaker_pca_figure.py
-
-Adjust the three paths below. Output: speaker_pca_gender.pdf
 """
 from pathlib import Path
 import numpy as np
