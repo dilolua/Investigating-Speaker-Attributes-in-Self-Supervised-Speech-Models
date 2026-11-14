@@ -118,7 +118,7 @@ def run_probe(X, y, train_idx, test_idx, task):
     mistakes = y_pred != y_test
     n_mistakes = mistakes.sum()
 
-    #NEW: majority-class baseline -- what accuracy/macro F1 would you get
+    #majority-class baseline -- what accuracy/macro F1 would you get
     #by always predicting the single most common label in TRAIN? This
     #makes the accuracy-vs-macro-F1 gap concrete: a probe that barely
     #beats this baseline on accuracy, while scoring far worse on macro F1,
